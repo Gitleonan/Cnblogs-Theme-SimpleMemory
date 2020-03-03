@@ -38,7 +38,7 @@ $(document).ready(function(){
     var uid = fileid[0].replace('.html', ''); // 获取文章ID
 
 
-    var bottom_html = '<br><p class="essaySuffix-eof">__EOF__</p>';
+    var bottom_html = '<br><p class="essaySuffix-eof">「今でもあなたは私の光。」</p>';
     bottom_html += '<div class="essaySuffix-box">';
 
 
