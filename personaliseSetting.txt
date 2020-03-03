@@ -1,6 +1,6 @@
 <script type="text/javascript">
     window.cnblogsConfig = {
-        GhVersions    : '1.0.1', // 版本
+        GhVersions    : '1.0.2', // 版本
         GhUserName:'Gitleonan',
         blogUser      : "lngrid ln grid", // 用户名
         blogAvatar    : "http://r.photo.store.qq.com/psc?/V10lqr6k12fA6e/gliYV*h0f2f2HjcOdYSYvUMzXh*KATNPwBO2nOicEFzhH9d2on8GwcM58jVfeEvJmwd5Y3SaKplkT7sFrvDqNKzN*iwNUtpBDtq4NBOjJ08!/r", // 用户头像
@@ -65,6 +65,6 @@
         },
     }
 </script>
-<script src="https://cdn.jsdelivr.net/gh/Gitleonan/Cnblogs-Theme-SimpleMemory@1.0.1/src/script/simpleMemory.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Gitleonan/Cnblogs-Theme-SimpleMemory@1.0.2/src/script/simpleMemory.min.js"></script>
 <script src="https://files.cnblogs.com/files/wkfvawl/mouse-click.js"></script>
 <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
