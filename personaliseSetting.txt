@@ -1,0 +1,70 @@
+<script type="text/javascript">
+    window.cnblogsConfig = {
+        GhVersions    : '1.0.1', // 版本
+        GhUserName:'Gitleonan',
+        blogUser      : "lngrid ln grid", // 用户名
+        blogAvatar    : "http://r.photo.store.qq.com/psc?/V10lqr6k12fA6e/gliYV*h0f2f2HjcOdYSYvUMzXh*KATNPwBO2nOicEFzhH9d2on8GwcM58jVfeEvJmwd5Y3SaKplkT7sFrvDqNKzN*iwNUtpBDtq4NBOjJ08!/r", // 用户头像
+        blogStartDate : "2019-12-17", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+
+        webpageTitleOnblur: "(◍´꒳`◍) Hi", // 当前页失去焦点，页面title显示文字
+        webpageTitleOnblurTimeOut: 500, // 当前页失去焦点，页面title变化，延时时间，单位毫秒
+        webpageTitleFocus: "(*´∇｀*) Hello ", // 当前页获取焦点，页面title显示文字，显示后延时恢复原title
+        webpageTitleFocusTimeOut: 1000, // 当前页获取焦点，页面title变化，延时时间，单位毫秒
+        webpageIcon: "https://r.photo.store.qq.com/psc?/V10lqr6k12fA6e/gliYV*h0f2f2HjcOdYSYvd3j5GVWWKq12SkTeqDcXXWyKhkxyH4OZNUoBjwvp5xpywInUBy9Ypt.IM4D*0kEF7rp*9SqT7RgcBTZZk25Hms!/r", // 网站图标
+
+        menuUserInfoBgImg: 'https://r.photo.store.qq.com/psc?/V10lqr6k479rqc/gliYV*h0f2f2HjcOdYSYvd8fTR7CokimHZLCng6D9C.2gMF04Uz8aSqPoCOHdyVy7Cx0hnkzI6KIVToMpcoW0r53uLJy73XmcMdUwEVnnro!/r',   //菜单个人信息背景图
+        footerStyle:1,  //页脚样式
+        homeBannerTextType: "jinrishici",  //主页 banner 上的标语获取源，默认为 jinrishici 每次刷新随机获取一句古诗词
+        // ---- 主页配置 ----
+        homeTopImg: [ // 主页图片Url，推荐尺寸>= 1920*1080，支持多张，每次刷新随机设置一张
+            "https://r.photo.store.qq.com/psc?/V10lqr6k12fA6e/gliYV*h0f2f2HjcOdYSYveqxD7ELX3ygKOFsF9cymBcjLYnImFkJ9WkXjYzBkxaXLV8XZw78HR.jyi2oEE*RDABB*h5eERGugAM*pbwI.ME!/r"
+        ],
+        homeBannerText: "", // 主页头图上的标语，设置此选项会固定显示文字，默认为空，自动获取一句。
+
+        // ---- 随笔页配置 ----
+        essayTopImg: [ // 随笔页图片Url，支持多张，每次刷新随机设置一张
+            "http://dik.img.kttpdq.com/pic/145/101377/0bb103e69d37d059.jpg"
+        ],
+        essayCodeHighlightingType: 'cnblogs', // 代码主题插件类型：cnblogs || highlightjs || prettify
+        essayCodeHighlighting: 'cnblogs', // 代码高亮主题，具体主题参考文档
+        essaySuffix: {
+            codeImgUrl   : '', // >= v1.1.5 左侧图片设置，不配置使用 window.cnblogsConfig.blogAvatar
+            aboutHtml    : '', // 关于博主，不配置使用默认
+            copyrightHtml: '', // 版权声明，不配置使用默认
+            supportHtml  : '',  // 声援博主，不配置使用默认
+        },
+
+        // ---- 页脚配置 ----
+        /* bottomBlogroll: [ // 友情链接，[[链接名,链接]....]
+            ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ],
+      */
+        bottomText: { // 页脚标语
+            icon: "❤️", // 图标
+            left: "「今でもあなたは私の光。」", // 图标左侧文字
+            right: "如今你依旧是我的光。" // 图标右侧文字
+        },
+
+        // ---- 控制台输出 ----
+        consoleList: [
+            ['lngird CNBlogs', 'https://www.cnblogs.com/ingrid'],
+            ['lngrid Email', 'leonan0500@foxmail.com']
+        ],
+        themeAuthor: true, // 是否显示主题作者
+        menuCustomList: {
+            "文章": { // 标题
+                "data": [ // 列表数据 ['列表', '链接']
+                    ['待上架', 'https://www.cnblogs.com/ingrid/'],
+                ],
+                "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
+            },
+        },
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/gh/Gitleonan/Cnblogs-Theme-SimpleMemory@1.0.1/src/script/simpleMemory.min.js"></script>
+<script src="https://files.cnblogs.com/files/wkfvawl/mouse-click.js"></script>
+<canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
