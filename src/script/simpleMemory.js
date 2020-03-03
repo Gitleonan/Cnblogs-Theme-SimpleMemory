@@ -236,7 +236,8 @@ function getVersionConfig() {
         });
 
     } else {
-        var url = 'https://raw.githubusercontent.com/' + window.cnblogsConfig.GhUserName + '/' + window.cnblogsConfig.GhRepositories + '/master/version.conf';
+        setConfVersion();
+        /*var url = 'https://raw.githubusercontent.com/' + window.cnblogsConfig.GhUserName + '/' + window.cnblogsConfig.GhRepositories + '/master/version.conf';
 
         $.ajax({
             type: "get",
@@ -248,7 +249,7 @@ function getVersionConfig() {
                 window.themeVersion = conf ? JSON.parse(conf) : false;
                 window.themeVersion && setConfVersion();
             }
-        });
+        });*/
     }
 
     function setConfVersion() {
